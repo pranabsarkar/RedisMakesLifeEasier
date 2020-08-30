@@ -24,8 +24,28 @@ in the Redis DB.
 
 ## Testing
 
+Will be added soon.
+
 ## Setup Guide
 
+First of all, clone this using terminal after running-
+
+`git clone https://github.com/pranabsarkar/RedisLovesSQLite.git`
+
+Once, it is cloned run-
+
+`cd RedisLovesSQLite`
+
+Please open terminal in the current directory and run this command to insatall the dependencies-
+
+`pip install -r requirements.txt`
+
+Open terminal and run this command to start the server -
+
+`python app.py `
+
 ## Reference
+
+1. [Redis Documentation](https://redis.io/topics/quickstart)
 
 ## 
