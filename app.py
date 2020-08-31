@@ -10,9 +10,10 @@ CORS(app)
 def handle():    
     RequestKey = request.get_json(force=True)
     zipcode = RequestKey["zipcode"]
+    productName = RequestKey["product-name"]
 
     client = ProcessRequest()
-    result ={"data": client.handle(zipcode)}
+    result ={"data": client.handle(zipcode, productName)}
 
     result = json.dumps(result)
     resp = Response(result, status=200, mimetype='application/json')
