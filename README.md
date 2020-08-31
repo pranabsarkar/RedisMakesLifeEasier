@@ -3,7 +3,7 @@
 ## Overview
 
 Here, we can get the details of every registered Photographers for the
-queried zip code using a specific product.
+queried zip code, who are using a specific product.
 
 This is a simple Python Based Template where we can leverage the 
 benfits of Redis over using a Regular Database in the Cloud.
@@ -12,13 +12,13 @@ benfits of Redis over using a Regular Database in the Cloud.
 
 ## Steps - Involved
 
-1. The Compute Engine (EC2/Lambda) recives an request from the API Gateway to
-query Artist's in a particular ZIP code.
+1. The Compute Engine (EC2) recives an request from the API Gateway to
+query photographers in a particular ZIP code, who are using a specific product.
 
-2. The Redis in memory database will return the details if the quried key is
+2. The Redis in memory database will return the details if the queried key is
 present, else `None`. Here, the details will be stored in JSON list Data Structure.
 
-3. If the response for the quried data form Redis DB is `None`, the response from
+3. If the response for the queried data form Redis DB is `None`, the response from
 SQLite Database will be returned back to the Compute Engine with updating the Key 
 in the Redis DB.
 
