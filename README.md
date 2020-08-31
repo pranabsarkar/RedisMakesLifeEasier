@@ -20,7 +20,7 @@ present, else `None`. Here, the details will be stored in JSON list Data Structu
 
 3. If the response for the queried data form Redis DB is `None`, the response from
 SQLite Database will be returned back to the Compute Engine with updating the Key 
-in the Redis DB.
+in Redis DB.
 
 
 ### Sample - Payload
