@@ -83,6 +83,6 @@ Open terminal and run this command to start the server -
 
 ## Author
 
-* Name: Pranab Sarkar
+Name: Pranab Sarkar
 
 Please feel free to add your input's :)
