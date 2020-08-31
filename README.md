@@ -2,8 +2,8 @@
 
 ## Overview
 
-Here, we can get the details of every registered Artist's for the
-queried zip code.
+Here, we can get the details of every registered Photographers for the
+queried zip code using a specific product.
 
 This is a simple Python Based Template where we can leverage the 
 benfits of Redis over using a Regular Database in the Cloud.
