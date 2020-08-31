@@ -22,6 +22,39 @@ present, else `None`. Here, the details will be stored in JSON list Data Structu
 SQLite Database will be returned back to the Compute Engine with updating the Key 
 in the Redis DB.
 
+
+### Sample - Payload
+
+* REQUEST: `POST`
+* URL: `http://127.0.0.1:5000/v1`
+
+```JSON
+
+{
+    "zipcode": "855058",
+    "product-name": "ABC"
+}
+
+```
+
+### Sample - Response
+
+```JSON
+
+{
+    "data": [
+        {
+            "contact": "232-568-8464",
+            "name": "Charity",
+            "email": "cthynnea@gnu.org",
+            "zipcode": "855058",
+            "id": 2
+        }
+    ]
+}
+
+```
+
 ## Testing
 
 Will be added soon.
@@ -48,4 +81,8 @@ Open terminal and run this command to start the server -
 
 1. [Redis Documentation](https://redis.io/topics/quickstart)
 
-## 
+## Author
+
+* Name: Pranab Sarkar
+* LinkedIN: http://bit.ly/pzlinked
+* Email-ID: sarkarpranab66@gmail.com

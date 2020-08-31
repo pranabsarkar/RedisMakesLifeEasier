@@ -66,7 +66,7 @@ class RelationalDB:
             )
             self.insertData(conn, "projects", payload)
 
-    def getData(self, zipcode):
+    def getData(self, zipcode, productName):
         result = None
         conn = None
 

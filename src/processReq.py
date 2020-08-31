@@ -1,24 +1,29 @@
 from .RedisCache import ServerlessCache
 from .GlobalDb import RelationalDB
 from .processData import processData
+import time
 
 class ProcessRequest:
     def __init__(self):
         self.ServerlessCache = ServerlessCache()
         self.RelationalDB = RelationalDB()
         self.processData = processData()
+    
+    def createKey(self, zipcode, productName):
+        return zipcode + "|" + productName
 
-    def handle(self, payload):
+    def handle(self, zipcode, productName):
         result = None
 
         red = self.ServerlessCache
-        result = red.get(payload)
+        result = red.get(self.createKey(zipcode, productName))
 
         if result is not None:
             return result
         else:
+            time.sleep(3)
             client = self.RelationalDB
-            result = client.getData(int(payload))
+            result = client.getData(int(zipcode), productName)
             # Update the Key in Redis DB
-            self.ServerlessCache.setData(payload, self.processData.handle(result))
+            self.ServerlessCache.setData(self.createKey(zipcode, productName), self.processData.handle(result))
             return self.processData.handle(result)
