@@ -1,11 +1,13 @@
 import sqlite3
 from sqlite3 import Error
 import pandas as pd
-
+from .localLogger import localLogger
 
 class RelationalDB:
-    def __init__(self):
+    def __init__(self, uniqueId):
         self.database = r"src/database/pythonsqlite.db"
+        self.uniqueId = uniqueId
+        self.localLoggerClient = localLogger()
 
     def create_connection(self, db_file):
         """ create a database connection to the SQLite database
@@ -76,6 +78,7 @@ class RelationalDB:
             query = """SELECT * FROM projects WHERE zipcode = "{}";""".format(zipcode)
             cur.execute(query)
             result = cur.fetchall()
+            self.localLoggerClient.loggerOut(self.uniqueId, "Key Found in RDBMS")
             return result
         else:
             print("Error! cannot create the database connection.")

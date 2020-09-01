@@ -1,0 +1,5 @@
+2020/09/01 14:37:09 localLogger,line: 15    DEBUG | Request-ID: 83aec9f6ec3211eab76addea5605397f | Process Initiated
+2020/09/01 14:37:09 localLogger,line: 15    DEBUG | Request-ID: 83aec9f6ec3211eab76addea5605397f | Key Found in Redis
+2020/09/01 14:37:09 _internal,line: 113     INFO | 127.0.0.1 - - [01/Sep/2020 14:37:09] "[37mPOST /v1 HTTP/1.1[0m" 200 -
+2020/09/01 14:37:51 _internal,line: 113     INFO |  * Detected change in 'D:\\AI\\tcs\\Redis\\RedisLovesSQLite\\src\\processReq.py', reloading
+2020/09/01 14:37:51 _internal,line: 113     INFO |  * Restarting with stat
