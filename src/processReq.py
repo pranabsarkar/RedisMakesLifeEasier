@@ -13,13 +13,18 @@ class ProcessRequest:
         self.processData = processData()
         self.secretManager = secretManager()
 
+    def keyConcat(self, zipcode, productName):
+        return zipcode + "|" + productName
+
     def createKey(self, zipcode, productName):
-        data = zipcode + "|" + productName
-        return self.secretManager.encodeData(data)
+        return self.secretManager.encodeData(
+            self.keyConcat(zipcode, productName)
+        )
 
     def getKey(self, zipcode, productName):
-        data = zipcode + "|" + productName
-        return self.secretManager.decodeData(data)
+        return self.secretManager.decodeData(
+            self.keyConcat(zipcode, productName)
+        )
 
     def handle(self, zipcode, productName):
         result = None
