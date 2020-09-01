@@ -4,10 +4,11 @@ from .processData import processData
 import time
 
 class ProcessRequest:
-    def __init__(self):
-        self.ServerlessCache = ServerlessCache()
-        self.RelationalDB = RelationalDB()
-        self.processData = processData()
+    def __init__(self, uniqueId):
+        self.uniqueId = uniqueId
+        self.ServerlessCache = ServerlessCache(uniqueId)
+        self.RelationalDB = RelationalDB(uniqueId)
+        self.processData = processData()        
     
     def createKey(self, zipcode, productName):
         return zipcode + "|" + productName
