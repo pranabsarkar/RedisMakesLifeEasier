@@ -26,7 +26,7 @@ in Redis DB.
 ### Sample - Payload
 
 * REQUEST: `POST`
-* URL: `http://127.0.0.1:5000/v1`
+* URL: `http://127.0.0.1:5001/v1`
 
 ```JSON
 
