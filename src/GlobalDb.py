@@ -1,16 +1,14 @@
 import sqlite3
 from sqlite3 import Error
 import pandas as pd
-from .localLogger import localLogger
+
 
 class RelationalDB:
-    def __init__(self, uniqueId):
+    def __init__(self):
         self.database = r"src/database/pythonsqlite.db"
-        self.uniqueId = uniqueId
-        self.localLoggerClient = localLogger()
 
     def create_connection(self, db_file):
-        """ create a database connection to the SQLite database
+        """create a database connection to the SQLite database
             specified by db_file
         :param db_file: database file
         :return: Connection object or None
@@ -23,7 +21,7 @@ class RelationalDB:
             print(e)
 
     def createTable(self, conn, create_table_sql):
-        """ create a table from the create_table_sql statement
+        """create a table from the create_table_sql statement
         :param conn: Connection object
         :param create_table_sql: a CREATE TABLE statement
         :return:
@@ -35,8 +33,10 @@ class RelationalDB:
             print(e)
 
     def insertData(self, conn, tableName, payload):
-        sql = ''' INSERT INTO {}(id,zipcode,name,email,phone)
-                VALUES(?,?,?,?,?) '''.format(tableName)
+        sql = """ INSERT INTO {}(id,zipcode,name,email,phone)
+                VALUES(?,?,?,?,?) """.format(
+            tableName
+        )
         cur = conn.cursor()
         cur.execute(sql, payload)
         conn.commit()
@@ -63,8 +63,11 @@ class RelationalDB:
         keys = pd.read_csv("dummy/sample.csv")
         for key in range(len(keys)):
             payload = (
-                key, str(keys["zipcode"].iloc[key]), keys["name"].iloc[key],
-                keys["email"].iloc[key], keys["contact"].iloc[key]
+                key,
+                str(keys["zipcode"].iloc[key]),
+                keys["name"].iloc[key],
+                keys["email"].iloc[key],
+                keys["contact"].iloc[key],
             )
             self.insertData(conn, "projects", payload)
 
@@ -78,9 +81,8 @@ class RelationalDB:
             query = """SELECT * FROM projects WHERE zipcode = "{}";""".format(zipcode)
             cur.execute(query)
             result = cur.fetchall()
-            self.localLoggerClient.loggerOut(self.uniqueId, "Key Found in RDBMS")
             return result
         else:
             print("Error! cannot create the database connection.")
-        
+
         return result

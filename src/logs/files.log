@@ -1,5 +1,72 @@
-2020/09/01 14:37:09 localLogger,line: 15    DEBUG | Request-ID: 83aec9f6ec3211eab76addea5605397f | Process Initiated
-2020/09/01 14:37:09 localLogger,line: 15    DEBUG | Request-ID: 83aec9f6ec3211eab76addea5605397f | Key Found in Redis
-2020/09/01 14:37:09 _internal,line: 113     INFO | 127.0.0.1 - - [01/Sep/2020 14:37:09] "[37mPOST /v1 HTTP/1.1[0m" 200 -
-2020/09/01 14:37:51 _internal,line: 113     INFO |  * Detected change in 'D:\\AI\\tcs\\Redis\\RedisLovesSQLite\\src\\processReq.py', reloading
-2020/09/01 14:37:51 _internal,line: 113     INFO |  * Restarting with stat
+2020/09/01 21:41:43 _internal,line: 113  WARNING |  * Debugger is active!
+2020/09/01 21:41:44 _internal,line: 113     INFO |  * Debugger PIN: 327-793-558
+2020/09/01 21:41:44 _internal,line: 113     INFO |  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020/09/01 21:43:26 _internal,line: 113     INFO |  * Detected change in 'D:\\AI\\tcs\\Redis\\RedisLovesSQLite\\src\\RedisCache.py', reloading
+2020/09/01 21:43:38 _internal,line: 113     INFO |  * Restarting with stat
+2020/09/01 21:43:39 _internal,line: 113  WARNING |  * Debugger is active!
+2020/09/01 21:43:39 _internal,line: 113     INFO |  * Debugger PIN: 327-793-558
+2020/09/01 21:43:40 _internal,line: 113     INFO |  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020/09/01 21:47:06 _internal,line: 113     INFO |  * Detected change in 'D:\\AI\\tcs\\Redis\\RedisLovesSQLite\\src\\localLogger.py', reloading
+2020/09/01 21:47:06 _internal,line: 113     INFO |  * Restarting with stat
+2020/09/01 21:47:08 _internal,line: 113  WARNING |  * Debugger is active!
+2020/09/01 21:47:09 _internal,line: 113     INFO |  * Debugger PIN: 327-793-558
+2020/09/01 21:47:09 _internal,line: 113     INFO |  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020/09/01 21:56:32 _internal,line: 113     INFO |  * Detected change in 'D:\\AI\\tcs\\Redis\\RedisLovesSQLite\\src\\localLogger.py', reloading
+2020/09/01 21:56:32 _internal,line: 113     INFO |  * Restarting with stat
+2020/09/01 21:56:41 localLogger,line: 17    DEBUG | Request-ID: Hi | hello
+2020/09/01 21:59:51 _internal,line: 113     INFO |  * Restarting with stat
+2020/09/01 22:01:26 _internal,line: 113     INFO |  * Restarting with stat
+2020/09/01 22:02:13 _internal,line: 113     INFO |  * Restarting with stat
+2020/09/01 22:02:18 _internal,line: 113     INFO |  * Restarting with stat
+2020/09/01 22:04:38 _internal,line: 113     INFO |  * Restarting with stat
+2020/09/01 22:06:46 _internal,line: 113     INFO |  * Restarting with stat
+2020/09/01 22:06:52 _internal,line: 113     INFO |  * Restarting with stat
+2020/09/01 22:08:56 _internal,line: 113     INFO |  * Restarting with stat
+2020/09/01 22:11:25 localLogger,line: 17    DEBUG | Request-ID: Hi | hello
+2020/09/01 22:11:27 localLogger,line: 17    DEBUG | Request-ID: Hi | hello
+2020/09/01 22:13:59 localLogger,line: 17    DEBUG | Request-ID: Hi | hello
+2020/09/02 12:50:50 localLogger,line: 17    DEBUG | Request-ID: d40d7e21ecec11eaa597ddea5605397f | Process Initiated
+2020/09/02 12:50:51 _internal,line: 113     INFO | 127.0.0.1 - - [02/Sep/2020 12:50:51] "[37mPOST /v1 HTTP/1.1[0m" 200 -
+2020/09/02 12:53:10 _internal,line: 113     INFO |  * Detected change in 'D:\\AI\\tcs\\Redis\\RedisLovesSQLite\\src\\processReq.py', reloading
+2020/09/02 12:53:18 localLogger,line: 17    DEBUG | Request-ID: 1234 | Key Found in RDBMS
+2020/09/02 12:53:26 localLogger,line: 17    DEBUG | Request-ID: 315716c0eced11ea87d6ddea5605397f | Process Initiated
+2020/09/02 12:53:31 localLogger,line: 17    DEBUG | Request-ID: 315716c0eced11ea87d6ddea5605397f | Key Found in RDBMS
+2020/09/02 12:53:31 _internal,line: 113     INFO | 127.0.0.1 - - [02/Sep/2020 12:53:31] "[37mPOST /v1 HTTP/1.1[0m" 200 -
+2020/09/02 12:53:39 localLogger,line: 17    DEBUG | Request-ID: 39293b57eced11ea8d0bddea5605397f | Process Initiated
+2020/09/02 12:53:44 localLogger,line: 17    DEBUG | Request-ID: 39293b57eced11ea8d0bddea5605397f | Key Found in RDBMS
+2020/09/02 12:53:45 _internal,line: 113     INFO | 127.0.0.1 - - [02/Sep/2020 12:53:45] "[37mPOST /v1 HTTP/1.1[0m" 200 -
+2020/09/02 12:54:14 _internal,line: 113     INFO |  * Detected change in 'D:\\AI\\tcs\\Redis\\RedisLovesSQLite\\src\\processReq.py', reloading
+2020/09/02 12:54:27 localLogger,line: 17    DEBUG | Request-ID: 555df02aeced11eabb7fddea5605397f | Process Initiated
+2020/09/02 12:54:28 _internal,line: 113     INFO | 127.0.0.1 - - [02/Sep/2020 12:54:28] "[37mPOST /v1 HTTP/1.1[0m" 200 -
+2020/09/02 12:54:30 localLogger,line: 17    DEBUG | Request-ID: 579876f9eced11ea9299ddea5605397f | Process Initiated
+2020/09/02 12:54:32 _internal,line: 113     INFO | 127.0.0.1 - - [02/Sep/2020 12:54:32] "[37mPOST /v1 HTTP/1.1[0m" 200 -
+2020/09/02 12:56:12 _internal,line: 113     INFO |  * Detected change in 'D:\\AI\\tcs\\Redis\\RedisLovesSQLite\\src\\RedisCache.py', reloading
+2020/09/02 12:56:29 localLogger,line: 17    DEBUG | Request-ID: 1234 | Key Found in Redis
+2020/09/02 12:56:34 localLogger,line: 17    DEBUG | Request-ID: a0f547fbeced11ea99ecddea5605397f | Process Initiated
+2020/09/02 12:56:35 localLogger,line: 17    DEBUG | Request-ID: a0f547fbeced11ea99ecddea5605397f | Key Found in Redis
+2020/09/02 12:56:35 _internal,line: 113     INFO | 127.0.0.1 - - [02/Sep/2020 12:56:35] "[37mPOST /v1 HTTP/1.1[0m" 200 -
+2020/09/02 12:56:37 localLogger,line: 17    DEBUG | Request-ID: a3070f07eced11ea94c7ddea5605397f | Process Initiated
+2020/09/02 12:56:38 localLogger,line: 17    DEBUG | Request-ID: a3070f07eced11ea94c7ddea5605397f | Key Found in Redis
+2020/09/02 12:56:38 _internal,line: 113     INFO | 127.0.0.1 - - [02/Sep/2020 12:56:38] "[37mPOST /v1 HTTP/1.1[0m" 200 -
+2020/09/02 12:56:59 localLogger,line: 17    DEBUG | Request-ID: b045801deced11ea8e75ddea5605397f | Process Initiated
+2020/09/02 12:57:01 localLogger,line: 17    DEBUG | Request-ID: b045801deced11ea8e75ddea5605397f | Key Found in Redis
+2020/09/02 12:57:01 _internal,line: 113     INFO | 127.0.0.1 - - [02/Sep/2020 12:57:01] "[37mPOST /v1 HTTP/1.1[0m" 200 -
+2020/09/02 12:58:42 _internal,line: 113     INFO |  * Detected change in 'D:\\AI\\tcs\\Redis\\RedisLovesSQLite\\app.py', reloading
+2020/09/02 13:01:46 localLogger,line: 17    DEBUG | Request-ID: 5999bc9decee11eabaf9ddea5605397f | Found in Redis
+2020/09/02 13:01:51 localLogger,line: 17    DEBUG | Request-ID: 5d6992e5ecee11ea937eddea5605397f | Found in Redis
+2020/09/02 13:01:51 _internal,line: 113     INFO | 127.0.0.1 - - [02/Sep/2020 13:01:51] "[37mPOST /v1 HTTP/1.1[0m" 200 -
+2020/09/02 13:02:14 localLogger,line: 17    DEBUG | Request-ID: 6ae53aacecee11ea9766ddea5605397f | Found in Redis
+2020/09/02 13:02:14 _internal,line: 113     INFO | 127.0.0.1 - - [02/Sep/2020 13:02:14] "[37mPOST /v1 HTTP/1.1[0m" 200 -
+2020/09/02 13:02:57 _internal,line: 113     INFO |  * Detected change in 'D:\\AI\\tcs\\Redis\\RedisLovesSQLite\\src\\processReq.py', reloading
+2020/09/02 13:03:04 localLogger,line: 17    DEBUG | Request-ID: 88e8776aecee11ea8f8eddea5605397f | Found in Redis
+2020/09/02 13:05:37 localLogger,line: 17    DEBUG | Request-ID: e410db10ecee11eaa305ddea5605397f | Found in Redis
+2020/09/02 13:05:44 localLogger,line: 17    DEBUG | Request-ID: e7ab9b01ecee11ea8652ddea5605397f | Found in Redis
+2020/09/02 13:05:44 _internal,line: 113     INFO | 127.0.0.1 - - [02/Sep/2020 13:05:44] "[37mPOST /v1 HTTP/1.1[0m" 200 -
+2020/09/02 13:08:33 _internal,line: 113     INFO |  * Detected change in 'D:\\AI\\tcs\\Redis\\RedisLovesSQLite\\src\\processReq.py', reloading
+2020/09/02 13:08:40 localLogger,line: 17    DEBUG | Request-ID: 4eb52ba5ecef11eab7dcddea5605397f | Found in DB
+2020/09/02 13:08:51 localLogger,line: 17    DEBUG | Request-ID: 57a36b1aecef11eaaf6bddea5605397f | Found in Redis
+2020/09/02 13:09:47 localLogger,line: 16    DEBUG | Request-ID: 78d778c4ecef11ea9963ddea5605397f | Found in Redis
+2020/09/02 13:09:52 localLogger,line: 16    DEBUG | Request-ID: 7c010717ecef11eaa7c8ddea5605397f | Found in Redis
+2020/09/02 13:09:52 _internal,line: 113     INFO | 127.0.0.1 - - [02/Sep/2020 13:09:52] "[37mPOST /v1 HTTP/1.1[0m" 200 -
+2020/09/02 13:10:42 _internal,line: 113     INFO |  * Detected change in 'D:\\AI\\tcs\\Redis\\RedisLovesSQLite\\src\\RedisCache.py', reloading
+2020/09/02 13:11:08 localLogger,line: 16    DEBUG | Request-ID: a8f9b9c1ecef11eab196ddea5605397f | Found in Redis
