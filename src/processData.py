@@ -1,8 +1,9 @@
 class processData:
     def __init__(self):
-        self.result = []
+        self.result = None
 
     def handle(self, data):
+        self.result = []
         for key in range(len(data)):
             self.result.append(
                 {
