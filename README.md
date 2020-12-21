@@ -1,4 +1,4 @@
-# RedisLovesSQLite
+# RedisMakesLifeEasier
 
 ## Overview
 
