@@ -1,4 +1,4 @@
-class processData:
+class ProcessData:
     def __init__(self):
         self.result = None
 

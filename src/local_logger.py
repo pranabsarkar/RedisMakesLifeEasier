@@ -1,8 +1,7 @@
-import sys
 import logging
 
 
-class localLogger:
+class LocalLogger:
     def __init__(self):
         self.filename = "src/logs/files.log"
 
