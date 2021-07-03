@@ -63,11 +63,11 @@ Will be added soon.
 
 First of all, clone this using terminal after running-
 
-`git clone https://github.com/pranabsarkar/RedisLovesSQLite.git`
+`git clone https://github.com/pranabsarkar/RedisMakesLifeEasier.git`
 
 Once, it is cloned run-
 
-`cd RedisLovesSQLite`
+`cd RedisMakesLifeEasier`
 
 Please open terminal in the current directory and run this command to insatall the dependencies-
 
