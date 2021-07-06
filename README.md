@@ -2,7 +2,7 @@
 
 ## Technical Blog
 
-![Medium Blog](https://medium.com/@sarkarpranab66/implementing-redis-cache-within-aws-lambda-function-for-better-response-latency-part-1-overview-19da1e5369ef)
+In this blog you can check some more details on Redis implementation - [Medium Blog](https://medium.com/@sarkarpranab66/implementing-redis-cache-within-aws-lambda-function-for-better-response-latency-part-1-overview-19da1e5369ef).
 
 ## Overview
 
