@@ -1,5 +1,9 @@
 # RedisMakesLifeEasier
 
+## Technical Blog
+
+![Medium Blog](https://medium.com/@sarkarpranab66/implementing-redis-cache-within-aws-lambda-function-for-better-response-latency-part-1-overview-19da1e5369ef)
+
 ## Overview
 
 Here, we can get the details of every registered Photographers for the
